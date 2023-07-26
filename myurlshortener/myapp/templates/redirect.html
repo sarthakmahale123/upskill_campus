@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+    <div>
+        <h2>Your URL:"{{obj.original_url}}"</h2>
+        <h5>Shortened URL:"{{obj.short_url}}"</h5>
+        <a href="{{obj.original_url}}"><button type="button" class="btn btn-danger">Redirect</button></a>
+    <div>
+
+{% endblock content %}

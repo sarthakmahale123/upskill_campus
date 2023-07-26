@@ -1,0 +1,31 @@
+.urlacceptor{
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.container{
+    height: 80vh;
+    border-radius: 5px;
+}
+
+.inputdiv{
+    gap:5vh
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar{
+    background-color: gray;
+    height: 9vh;
+}
+
+.navbar ul li:hover{
+    background-color: black;
+    color: white;
+    transition: 1s ease;
+}
+

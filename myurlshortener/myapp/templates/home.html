@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+    {% block content %}
+    <div class="container bg-secondary w-75">
+        <div class="text-center mt-4">
+            <h2>Welcome User !! Enter any URL's here to get them shortened</h2>
+        <div><br>
+        <div class="urlacceptor bg-success w-50 m-auto d-flex justify-content-center align-items-center flex-column">
+            <div class="d-flex m-5 inputdiv">
+            <h5>Enter your URL:</h5>
+            <input type="text" name="urlinput" placeholder="Enter your URL here">
+            </div>
+            <div class="btn">
+              <a href="/create/"><button class="btn-danger btn">Shorten</button></a>
+            </div>
+        </div>
+    </div><br>
+    {% endblock content %}
